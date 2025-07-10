@@ -49,3 +49,7 @@ body {
 h1, h2 {
       font-family: '', serif; /* More elegant font for headings */
     }
+
+.navbar-brand {
+  font-weight: 700;
+}
