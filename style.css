@@ -1,7 +1,51 @@
-.container-fluid {
+body {
+  background-color: white;
+  font:
+    font-family: 'Georgia', serif; /* Sets default font for the whole page */
+    }
+
+    h1, h2 {
+      font-family: 'Merriweather', serif; /* More elegant font for headings */
+    }
+
+    #bio {
+      font-family: 'Open Sans', sans-serif; /* Clean, readable font for body text */
+    }
+  margin-bottom: 50%;
+}
+/* .vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.circle-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+} */
+.image-cover {
+  object-fit: cover;
   width: 100%;
 }
-
-.col-6 {
-  background: red;
+.my-list {
+  font-size: 1.2vw; /* 1.2% of the viewport width */
+  max-width: 50ch; /* 50 character units */
+  word-wrap: break-word;
+  line-height: 1.4;
 }
+.my-list li {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  /* styles for small screens and up */
+  .my-list {
+    font-size: 2.4vw;
+    max-width: 100ch;
+  }
+}
+h1, h2 {
+      font-family: '', serif; /* More elegant font for headings */
+    }
